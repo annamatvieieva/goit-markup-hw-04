@@ -7,8 +7,8 @@
   --second-title-color: #ffffff;
   --primary-text-font: "Roboto";
   --second-text-font: "Raleway";
-  --primary-back-color:#ffffff;
-  --second-back-color:#c4c4c4;
+  --primary-back-color: #ffffff;
+  --second-back-color: #c4c4c4;
 }
 
 body {
@@ -183,22 +183,22 @@ header .logo-link {
   margin-right: 10px;
 }
 
-
 .contact-link:hover .contact-icon,
-.contact-link:focus .contact-icon  {
+.contact-link:focus .contact-icon {
   fill: var(--fourth-text-color);
 }
 
 /* hero */
 .hero-section {
-  background-color:var(--second-back-color);
+  background-color: var(--second-back-color);
   padding: 200px 0;
   text-align: center;
   background-image: linear-gradient(
-    to right,
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)
-  ), url(../images/hero.jpg);
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -220,7 +220,6 @@ header .logo-link {
 
 /* Наши сильные стороны*/
 
-
 .advantage-list {
   display: flex;
 }
@@ -233,14 +232,12 @@ header .logo-link {
 }
 
 .advantage-form {
-  background-color:  #F5F4FA;
+  background-color: #f5f4fa;
   min-height: 120px;
   margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  
-
 }
 
 .advantage-title {
@@ -290,7 +287,7 @@ header .logo-link {
 /* Наша команда */
 
 .team-section {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .team-list {
@@ -357,7 +354,7 @@ header .logo-link {
 
 .social-link:hover,
 .social-link:focus {
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 .social-link:hover .social-logo,
@@ -366,7 +363,7 @@ header .logo-link {
 }
 
 .social-logo {
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
 /*Постоянные клиенты*/
@@ -392,9 +389,9 @@ header .logo-link {
   align-items: center;
   justify-content: center;
   background-color: var(--primary-back-color);
-  border: 1px solid #AFB1B8;
-box-sizing: border-box;
-border-radius: 4px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 
 .client-link:hover,
@@ -408,9 +405,8 @@ border-radius: 4px;
 }
 
 .client-icon {
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
-
 
 /* Портфолио */
 .filter-btn {
@@ -443,6 +439,16 @@ border-radius: 4px;
 
 .filter-item:not(:last-child) {
   margin-right: 8px;
+}
+
+.portfolio-link {
+  display: block;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-list {
@@ -482,7 +488,7 @@ border-radius: 4px;
 
 /* footer */
 .footer {
-  background-color: #2F303A;;
+  background-color: #2f303a;
   color: var(--third-text-color);
   font-weight: normal;
   font-size: 14px;
@@ -504,7 +510,7 @@ border-radius: 4px;
 }
 
 .adress-information {
-  margin-right:70px;
+  margin-right: 70px;
 }
 .adress-item {
   margin-bottom: 9px;
@@ -514,7 +520,6 @@ border-radius: 4px;
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.71;
   letter-spacing: 0.03em;
-
 }
 
 footer .logo-link {
@@ -528,13 +533,13 @@ footer .logo-link {
 }
 
 .social-title {
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color:var(--second-title-color);
-margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--second-title-color);
+  margin-bottom: 20px;
 }
 
 .social-information {
@@ -542,16 +547,14 @@ margin-bottom: 20px;
 }
 
 footer .social-link {
-  background-color:rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .social-link:hover,
 .social-link:focus {
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 footer .social-logo {
   fill: var(--primary-back-color);
 }
-
-
